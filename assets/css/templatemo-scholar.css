@@ -1906,3 +1906,33 @@ body {
     width: 95%;
   }
 }
+
+.auth-item{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.auth-user{
+  font-size: 14px;
+  color: #fff;
+  opacity: 0.8;
+  white-space: nowrap;
+}
+
+.auth-btn{
+  padding: 6px 14px;
+  font-size: 13px;
+  font-weight: 600;
+  background: #facc15;
+  color: #000;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  transition: 0.2s;
+  white-space: nowrap;
+}
+
+.auth-btn:hover{
+  background: #eab308;
+}
